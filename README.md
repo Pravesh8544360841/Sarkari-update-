@@ -1,10 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Apna Sarkari Update</title>
-
+<title>About - Sarkari Update</title>
 <style>
 body {
   font-family: Arial, sans-serif;
@@ -38,40 +36,23 @@ nav a:hover {
 }
 
 .container {
-  padding: 15px;
-}
-
-.card {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
   background: white;
-  padding: 15px;
-  margin-bottom: 15px;
-  border-left: 6px solid red;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.card:hover {
-  transform: scale(1.02);
-  transition: 0.3s;
-}
-
-button {
-  background: red;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-button:hover {
-  background: darkred;
-}
-
-footer {
-  background: black;
-  color: white;
+h2 {
+  color: red;
   text-align: center;
-  padding: 10px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
 }
 </style>
 </head>
@@ -79,35 +60,28 @@ footer {
 <body>
 
 <header>
-<h1>APNA CYBER CAMP</h1>
-<p>Latest Jobs | Admit Card | Results</p>
+<h1>SARKARI UPDATE</h1>
+<p>Latest Jobs | Admit Card | Results | Answer Key</p>
 </header>
 
 <nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
 <a href="#">Latest Jobs</a>
-<a href="#">Admit Card</a>
 <a href="#">Results</a>
-<a href="#">Answer Key</a>
 </nav>
 
 <div class="container">
+<h2>About Sarkari Update</h2>
+<p>Welcome to <b>Sarkari Update</b> – your trusted source for all the latest government job notifications, exam results, admit cards, answer keys, and syllabus updates. Our goal is to provide accurate and timely information to help aspirants stay updated on important government recruitment opportunities across India.</p>
 
-<div class="card">
-<h3>UP Police 2026 Recruitment</h3>
-<p><b>Post Date:</b> 16 Feb 2026</p>
-<button>Apply Online</button>
+<p>We focus on simplifying job alerts and results, making it easy for users to find and apply for the latest openings. Whether you are looking for central government jobs, state government vacancies, or exam results, <b>Sarkari Update</b> has got you covered.</p>
+
+<p>Our team continuously updates the website to ensure that every notification reaches you on time. Join our community and never miss a government job opportunity again!</p>
 </div>
 
-<div class="card">
-<h3>SSC GD Result 2026</h3>
-<p><b>Status:</b> Result Declared</p>
-<button>Download Result</button>
-</div>
-
-</div>
-
-<footer>
-© 2026 Apna Cyber Camp | All Rights Reserved
+<footer style="background:black; color:white; text-align:center; padding:10px;">
+© 2026 Sarkari Update | All Rights Reserved
 </footer>
 
 </body>
